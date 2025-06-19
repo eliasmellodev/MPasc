@@ -275,3 +275,6 @@ def open_browser():
 if __name__ == "__main__":
     threading.Timer(1.5, open_browser).start()
     app.run(debug=False, port=8000)
+app.listen(3000, '0.0.0.0', () => {
+  console.log('Servidor rodando em 0.0.0.0:3000');
+});
